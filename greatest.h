@@ -109,7 +109,7 @@ int main(int argc, char **argv) {
 
 /* FILE *, for test logging. */
 #ifndef GREATEST_STDOUT
-#define GREATEST_STDOUT stdout
+#define GREATEST_STDOUT stderr
 #endif
 
 /* Remove GREATEST_ prefix from most commonly used symbols? */
